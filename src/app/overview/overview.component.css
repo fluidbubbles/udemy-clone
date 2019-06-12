@@ -1,0 +1,26 @@
+.overview-section {
+    display: flex;
+    flex-direction: row;
+}
+.overview-1 {
+    background-color: rgb(243, 233, 200);
+}
+.overview-2 {
+    margin-left: 4%;
+}
+.overview-box {
+    border:1px solid #bdc3c7;
+    padding-top:2%;
+    margin: auto;
+    box-shadow: 0px 3px 14px 0px rgba(149,165,166,1);
+}
+.overview-box col {
+    padding-bottom:2%;
+}
+.insight-header{
+    margin-top: 5%;
+    margin-bottom:2%;
+}
+.active-col {
+    border-bottom:5px solid #2980b9;
+}

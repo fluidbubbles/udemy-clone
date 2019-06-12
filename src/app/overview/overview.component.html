@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-4 overview-1">
+      <app-sidenav>
+    </div>
+    <div class="col-8">
+      <div class="overview-2">
+      <div class="overview-section">
+        <h1 class="mr-5">Overview</h1>
+        <div ngbDropdown class="d-inline-block">
+          <h3 class="pt-2 text-muted" id="dropdownBasic1" ngbDropdownToggle>All Courses</h3>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button ngbDropdownItem>Course 1</button>
+            <button ngbDropdownItem>Course 2</button>
+            <button ngbDropdownItem>Course 3</button>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-muted mt-10 insight-header">Get top insights about your performance</h3>
+      <div class="row overview-box text-muted">
+        <div class="col-2 active-col">
+          <div class="ml-3">
+          <p>Total Revenue</p>
+          <h2>$3450</h2>
+          <p>0 ratings this month</p>
+          </div>
+        </div>
+        <div class="col-2">
+            <p>Total Revenue</p>
+            <h2>$3450</h2>
+            <p>0 ratings this month</p>
+          </div>
+          <div class="col-2">
+              <p>Total Revenue</p>
+              <h2>$3450</h2>
+              <p>0 ratings this month</p>
+          </div>
+      </div>
+      <app-chart></app-chart>
+    </div>
+    </div>
+  </div>
