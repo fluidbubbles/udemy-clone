@@ -28,6 +28,9 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { CartNotificationComponent } from './cart-notification/cart-notification.component';
 import { MatIconModule } from '@angular/material/icon';
 import { CourseSearchComponent } from './student-dashboard/course-search/course-search.component';
+import { OverviewComponent } from './overview/overview.component';
+import { ChartComponent } from './chart/chart.component';
+import { MenunavComponent } from './menunav/menunav.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -35,7 +38,9 @@ const appRoutes: Routes = [
   {path: 'search', component: CourseSearchComponent},
   {path: 'cart', component: ShoppingCartComponent},
   {path: 'course', component: CourseComponent},
-  {path: 'checkout', component: CheckoutComponent}
+  {path: 'checkout', component: CheckoutComponent},
+  {path: 'chart', component: ChartComponent},
+  {path: 'overview', component: OverviewComponent},
 ];
 
 @NgModule({
@@ -61,7 +66,11 @@ const appRoutes: Routes = [
     DialogComponent,
     CheckoutComponent,
     CartNotificationComponent,
-    CourseSearchComponent
+    CourseSearchComponent,
+    OverviewComponent,
+    ChartComponent,
+    MenunavComponent
+
   ],
   imports: [
     BrowserModule,

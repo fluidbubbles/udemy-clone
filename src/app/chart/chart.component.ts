@@ -24,7 +24,6 @@ export class ChartComponent implements OnInit {
           lineTension:0,
           borderColor:"red",
           borderWidth:1,
-          backgroundColor: "red",
        
         }]
       },
